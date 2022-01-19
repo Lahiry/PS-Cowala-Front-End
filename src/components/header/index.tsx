@@ -1,5 +1,5 @@
 import icone from '../../assets/icone.png'
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/logo.png'
 
 import { Container, Content } from './styles'
 
