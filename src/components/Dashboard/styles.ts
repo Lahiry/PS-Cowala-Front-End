@@ -56,10 +56,18 @@ export const InputField = styled.div`
     height: 2.5rem;
     border: 0;
     border-radius: 0.15rem;
+    color: var(--black);
     background: var(--white);
-
+    font-weight: 400;
+    
     &:focus {
       outline: 1px solid var(--aqua);
+    }
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
     }
   }
 
